@@ -5,4 +5,5 @@ def main():
     on_mask = 1 << i
     print(n|on_mask)
 
-main()
+if __name__ == '__main__':
+    main()
