@@ -1,0 +1,10 @@
+def jos(n,k):
+    if n == 1:
+        return 0
+    
+    return (jos(n-1,k)+k) % n
+
+n = int(input("Enter A total Number of People \n"))
+k = int(input("Enter a Killing person position \n"))
+
+print("The Right Position He Needs to Stand For", jos(n,k))
