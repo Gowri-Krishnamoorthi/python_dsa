@@ -1,9 +1,10 @@
 def reverse(a,start,end):
 
     while start < end:
-        temp = a[start]
-        a[start] = a[end]
-        a[end] = temp
+        # temp = a[start]
+        # a[start] = a[end]
+        # a[end] = temp
+        a[start] , a[end] = a[end] , a[start]
         start = start + 1
         end = end -1
 
@@ -20,7 +21,7 @@ def rotate(ar,k):
 def main():
     ar = [1,2,3,4,5]
     print(ar)
-    rotate(ar,3)
+    rotate(ar,-1)
     print(ar)
 
 main()
