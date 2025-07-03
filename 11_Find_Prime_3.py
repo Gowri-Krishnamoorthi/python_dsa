@@ -10,7 +10,7 @@ def is_prime(num):
     if num%2==0 or num%3==0:
         return False
     for i in range (5,int(math.sqrt(num))+1,6):
-        if num%i==0 or num%(i+1)==0:
+        if num%i==0 or num%(i+2)==0:
            return False
     return True
 

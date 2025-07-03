@@ -1,5 +1,5 @@
 # brute force apporach 
-
+#0(max(a,b))
 def find_gcd (a,b):
     while(a!=b):
         if (a>b):

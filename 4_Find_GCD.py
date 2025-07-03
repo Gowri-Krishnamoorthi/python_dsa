@@ -1,6 +1,6 @@
-# brute force apporach 
-
-def find_gcd (a,b):
+# brute force apporach GCD or HCF
+# min(a,b)
+def find_gcd (a,b): 
     min = 0
     if (a > b):
         min = b
