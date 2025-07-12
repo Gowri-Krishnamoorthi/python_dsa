@@ -37,8 +37,8 @@ def floor(arr,key):
         return -1
     
 def main():
-    arr = [19,23,56,61,72,88,92]
+    arr = [19,23,56,69,72,87,92]
     print(ceil(arr,68))
-    print(floor(arr,70))
+    print(floor(arr,88))
 
 main()

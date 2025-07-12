@@ -1,3 +1,7 @@
+# given a rope of length n , you need to find the maximum number
+# of pieces you can make such that the length of every piece is in set {a,b,c}
+#for the given three values a,b,c
+
 def max_pieces(n, a, b, c):
 
     if (n == 0):
@@ -6,7 +10,7 @@ def max_pieces(n, a, b, c):
         return -1
     
     # temp1 = max_pieces(n-a , a, b, c)
-    # temp2 = max_pieces(n-b , a, b, c)
+    # temp2 = max_pieces(n-b , a, b, c)``
     # temp3 = max_pieces(n-c , a, b, c)
 
     # max(temp1 , temp2 , temp3)
@@ -20,7 +24,7 @@ def max_pieces(n, a, b, c):
     
 
 def main():
-    print(max_pieces(15,1,2,2))
+    print(max_pieces(15,5,7,8))
 
 main()
 

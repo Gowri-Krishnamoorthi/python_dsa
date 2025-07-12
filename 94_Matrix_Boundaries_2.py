@@ -29,12 +29,12 @@ def print_boundary_box(a):
     for i in range(rows):
         for j in range(cols):
             # Top row
-            if i == 0:
+            if i == 0 or i == rows - 1:
                 print(f"{a[i][j]:<3}", end=" ")
 
-            # Bottom row
-            elif i == rows - 1:
-                print(f"{a[i][j]:<3}", end=" ")
+            # # Bottom row
+            # elif i == rows - 1:
+            #     print(f"{a[i][j]:<3}", end=" ")
 
             # Left and right columns
             elif j == 0 or j == cols - 1:

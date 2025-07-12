@@ -1,3 +1,8 @@
+'''write an efficient algorithm that searches for a target value in an 
+m*n integer matrix. THe matrix has following properties
+1. integer in each row are stored in ascending from left to right
+2. integer in each column are sorted in ascending from top to bottom'''
+
 def search_matrix(a,target):
     i = 0
     j = len(a[0])-1

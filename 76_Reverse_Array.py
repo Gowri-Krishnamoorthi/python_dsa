@@ -2,9 +2,10 @@ def reverse(ar):
     i , j = 0 , len(ar) - 1
 
     while i < j:
-          temp = ar[i]
-          ar[i] = ar[j]
-          ar[j] = temp
+        #   temp = ar[i]
+        #   ar[i] = ar[j]
+        #   ar[j] = temp
+          ar[i] , ar[j] = ar[j] , ar[i]
           i = i + 1
           j = j - 1
 

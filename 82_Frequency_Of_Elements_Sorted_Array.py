@@ -1,3 +1,6 @@
+from typing import Counter
+
+
 def frequency(a):
     if not a:
         return
@@ -13,8 +16,14 @@ def frequency(a):
     # Always print the last group
     print(f'{a[-1]} {freq}')
 
+def counter_build(a):
+    result = Counter(a)
+    for i in result:
+        print(f'{i} {result[i]}')
+        
 def main():
-    a = [20, 20, 30, 30, 30, 30]
+    a = [20, 20, 30, 30, 1, 30]
     #a = [10]
-    frequency(a)
+    #frequency(a)
+    counter_build(a)
 main()
