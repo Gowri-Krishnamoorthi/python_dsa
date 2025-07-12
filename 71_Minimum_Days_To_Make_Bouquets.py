@@ -5,10 +5,10 @@ def is_possible_soln(ar,boq,flowers,m):
         if i <= m:
            adj = adj + 1
            if adj == flowers:
-               bc = bc + 1
-               if bc == boq:
+                bc = bc + 1
+                if bc == boq:
                    return True
-               adj = 0
+                adj = 0
         else:
             adj = 0
     return False

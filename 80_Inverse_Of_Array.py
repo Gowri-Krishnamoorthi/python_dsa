@@ -7,6 +7,12 @@ def inverse(a):
     #         b[v] = i
     # return b
 
+    #for clarification
+    # a = [2, 0, 3, 1]
+    # n = len(a) = 4
+    # sorted(a) = [0, 1, 2, 3]
+    # list(range(n)) = [0, 1, 2, 3]
+
     n = len(a)
     if sorted(a) != list(range(n)):
         raise ValueError("Input must be a permutation of 0 to n-1.")

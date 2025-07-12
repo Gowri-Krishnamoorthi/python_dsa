@@ -1,3 +1,6 @@
+#given a set of non negative integers, and a value sum , determine the number of 
+#subsets of the given set with sum equal to given sum
+
 def count_subsets(arr, sum, i):
 
     if sum == 0:

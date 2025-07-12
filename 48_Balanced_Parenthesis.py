@@ -10,7 +10,6 @@ def balanced_parenthesis(arr,n,i,o,c):
         arr[i] = ')'
         balanced_parenthesis(arr,n,i+1,o,c+1)
 
-    
 n = int(input("Enter A Number \n"))
 
 list = [""] * (n*2)

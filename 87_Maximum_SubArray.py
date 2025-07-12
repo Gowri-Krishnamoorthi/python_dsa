@@ -1,3 +1,8 @@
+'''given an integer array nums, find the contiguous subarray (containing at least one number)
+which has the largest sum and return its sum. a subarray is a contiguous part of an array'''
+
+#KADANE"S ALGORITHM
+
 #nave apporach
 # def max_sub_array(ar):
 #     max_sum = 0

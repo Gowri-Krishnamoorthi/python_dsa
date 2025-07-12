@@ -1,7 +1,6 @@
 #Find all the prime factors of a given number(o(root n * log(n)))
 import math
 
-
 def prime_factor(n):
     i = 2
     while(i<=math.sqrt(n)):

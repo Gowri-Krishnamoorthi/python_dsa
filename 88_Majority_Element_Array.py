@@ -1,3 +1,7 @@
+'''given an array nums of size n, retrun the majority element. The majority element
+is the element that more than n/2 times .you many assume that the majority element
+always exists in the array'''
+
 #nave apporach
 # def majorityelement(nums):
 #     for i in range(len(nums)):
@@ -21,11 +25,17 @@ def majorityelement(a):
         if count == 0:
             maj = a[i]
             count = 1
-    return maj
+
+         # Step 2: Verify candidate
+    if a.count(maj) > len(a) // 2:
+        return maj
+    else:
+        return -1  # or any sentinel value indicating no majority
+    #return maj
         
 
 def main():
-    a = [3,2,3]
+    a = [3,2,3,2]
     print(majorityelement(a))
 
 main()

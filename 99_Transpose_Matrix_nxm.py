@@ -1,3 +1,7 @@
+#only square matrix
+# import numpy as np
+# transposed = np.transpose(matrix)
+
 def transpose_nonsquare(matrix):
     rows = len(matrix)
     cols = len(matrix[0])
